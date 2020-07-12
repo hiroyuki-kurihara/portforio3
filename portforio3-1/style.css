@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    width: 100%;
+    height:100%;
+}
+.wrapper {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+.header {
+    background-color: #eff2f3;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+.header h2 {
+    padding-left: 20px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    
+}
+.nav li {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.main {
+    background-color: #e1f5f8;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.fas, .fa-searc {
+    font-size: 30px;
+    white-space: nowrap;
+}
+.main h2 {
+    font-size: 50px;
+}
+span{
+    font-size: 10px;
+    opacity: 0.6;
+}
+.main-pg {
+    padding-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.item img {
+    border-radius: 10%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.item p {
+    font-family: 'Ms 明朝';
+    font-size: 20px;
+}
+.pic {
+    font-family: 'Ms 明朝';
+    font-size: 30px;
+    padding-left: 20px;
+}
+.price {
+    font-family: serif;
+    font-size: 40px;
+}
+.news {
+    padding-left: 20px;
+    width: 1000px;
+}
+.white {
+    background-color: #eff2f3;
+}
+.white2  {
+     background-color: rgb(248, 244, 244);
+}
+.NEW {
+    color: #977d7d;
+}
+a:hover {
+    color: #c9f37b66;
+    
+}
+.diva {
+    width: 200px;
+    height: 200px;
+    background: red;
+    display:none;
+}
